@@ -33,10 +33,10 @@ The above is an excersice with a teller machine.
 Imagine you have a super market with a teller machine.
 
 You can easily add or remove everyday offers(that is you can easily add a new offer or remove existing ones very handy by just:
-creating your own offer ==> following the following the manifesto:
+creating your own offer ==> following the following manifesto:
 
 Your_Function_Offer(cart: List[String]): (Double, List[String])
 
-Note your discount function can change the cart if you wish! e.g: discount_Apples
+Note your discount function can change the cart items if you wish! e.g: discount_Apples
 
 Then you just add it in the checkout(List(Your_Function_Offer)) as in the example.
