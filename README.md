@@ -40,3 +40,20 @@ Your_Function_Offer(cart: List[String]): (Double, List[String])
 Note your discount function can change the cart items if you wish! e.g: discount_Apples
 
 Then you just add it in the checkout(List(Your_Function_Offer)) as in the example.
+
+Essentialy what checkout function does is:
+It takes a list of discount functions following a specified manifesto and applies them sequentialy to the cart one after the other. 
+For example:
+
+Discount funtion 1: 30% discount on apples...
+
+Discount funtion 2: 20% discount on oranges...
+
+Discount funtion 3: In 4 banana bunches 1 for free...
+
+etc....
+
+===================================================>
+
+
+List(discount1, discount2, discount3, ...) ==> total discount!
